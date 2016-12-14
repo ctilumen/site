@@ -1,0 +1,17 @@
+.gallery{
+    list-style: none;
+    padding: 15px 0;
+    
+    li{
+        margin: 15px 0;
+    }
+    
+    a{
+        display: block;
+        text-align: center;
+        
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

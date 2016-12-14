@@ -1,0 +1,15 @@
+.social{
+    
+    a:hover{
+        text-decoration: none;
+    }
+    
+    svg{
+        background: #fff;
+        fill: #0063b3;
+        
+        &:hover{
+            fill: #025293;
+        }
+    }
+}

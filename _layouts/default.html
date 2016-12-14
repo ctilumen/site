@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <title>
+        {% if page.title == "home" %}
+            {{ site.title }} &middot; {{ site.tagline }}
+        {% else %}
+            {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        
+        <link rel="icon" type="image/png" href="/favicon.png?1">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    
+    <body>
+        {% include icons.html %}
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+        
+        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/js/slick.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
