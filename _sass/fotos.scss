@@ -1,6 +1,9 @@
 .gallery{
-    list-style: none;
-    padding: 15px 0;
+    
+    ul{
+        list-style: none;
+        padding: 15px 0;
+    }
     
     li{
         margin: 15px 0;
@@ -13,5 +16,6 @@
         &:hover{
             text-decoration: none;
         }
+        
     }
 }

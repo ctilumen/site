@@ -48,13 +48,14 @@
         text-align: center;
         
         @media (max-width: $xs){
-            
+
             img{
                 width: 140px;
             }
         }
     }
 }
+
 
 .top-bar{
     border-bottom: 1px solid #0b7ad4;

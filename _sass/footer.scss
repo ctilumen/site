@@ -49,6 +49,15 @@
     
     .col-contact{
         
+        li{
+            color: #fff;
+            margin-bottom: 30px;
+            
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        
         @media (max-width: $sm){
             clear: left;
             margin-top: 30px;
