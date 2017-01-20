@@ -28,22 +28,28 @@ permalink: /
     
     <div class="row home-features">
         <div class="col-sm-4">
-            <i>
-                <svg width="120" height="105"><use xlink:href="#rocket" /></svg>
-            </i>
-            <p>Qualidade no Ensino</p>
+            <div class="box-feature">
+                <i>
+                    <svg width="120" height="105"><use xlink:href="#rocket" /></svg>
+                </i>
+                <p>Qualidade no Ensino</p>
+            </div>
         </div>
         <div class="col-sm-4">
-            <i>
-                <svg width="120" height="105"><use xlink:href="#crown" /></svg>
-            </i>
-            <p>10 Vezes 1º lugar no enem<br>Em garça</p>
+            <div class="box-feature">
+                <i>
+                    <svg width="120" height="105"><use xlink:href="#crown" /></svg>
+                </i>
+                <p>10 Vezes 1º lugar no enem<br>Em garça</p>
+            </div>
         </div>
         <div class="col-sm-4">
-            <i>
-                <svg width="120" height="105"><use xlink:href="#timer" /></svg>
-            </i>
-            <p>21 anos de Tradição em aprovações</p>
+            <div class="box-feature">
+                <i>
+                    <svg width="120" height="105"><use xlink:href="#timer" /></svg>
+                </i>
+                <p>21 anos de Tradição em aprovações</p>
+            </div>
         </div>
     </div>
 </div>
@@ -64,7 +70,7 @@ permalink: /
     <div class="between-sections row">
         <h2 class="home-title">Últimas do Blog</h2>
         <div>
-            {% for post in site.posts offset:1 limit:4 %}
+            {% for post in site.posts limit:4 %}
                 <a href="{{ post.url | prepend: site.baseurl }}" class="post-title">{{ post.title }}</a>
             {% endfor %}
         </div>

@@ -42,6 +42,11 @@
 .home-features{
     margin: 50px 0;
     
+    .box-feature{
+        border: 1px solid #e1e1e1;
+        padding: 30px;
+    }
+    
     i{
         display: block;
         line-height: 0;
@@ -50,8 +55,9 @@
     
     p{
         color: #0063b3;
-        font-size: 18px;
-        font-weight: 900;
+        font: 700 18px/1 'Roboto Condensed', sans-serif;
+        height: 50px;
+        margin-bottom: 0;
         text-align: center;
         text-transform: uppercase;
     }
@@ -79,6 +85,7 @@
         
         h2{
             color: #fff;
+            font: 700 24px/1 'Roboto Condensed', sans-serif;
             text-align: center;
             text-transform: uppercase;
         }
@@ -110,8 +117,7 @@
 
 .home-title{
     color: #f58220;
-    font-size: 18px;
-    font-weight: 900;
+    font: 700 38px/1 'Roboto Condensed', sans-serif;
     margin-top: auto;
     text-align: center;
     text-transform: uppercase;
