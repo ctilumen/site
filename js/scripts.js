@@ -30,6 +30,13 @@
             centerMode: true,
             focusOnSelect: true
         });
+        
+        var settings = {
+            username: 'lumen.com.br@gmail.com',
+            albumsPerPage: 12
+        };
+        
+        $("#fotos-antigas").pwi(settings);
     
     });
     
