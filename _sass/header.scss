@@ -18,8 +18,8 @@
         a{
             color: #fff;
             display: block;
-            font-size: 14px;
-            font-weight: 700;
+            font-size: 18px;
+            font-weight: 400;
             height: 133px;
             line-height: 133px;
             text-align: center;
@@ -38,6 +38,7 @@
             @media (max-width: $xs){
                 height: 50px;
                 line-height: 30px;
+                font-size: 14px;
             }
         }
     }

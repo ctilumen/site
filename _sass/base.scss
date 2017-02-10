@@ -23,6 +23,15 @@ $xs : 767px;
         color: #fff;
         text-decoration: none;
     }
+    
+    &.btn-full{
+        margin: 0 0 15px;
+        width: 100%;
+    }
+}
+
+.t-center{
+    text-align: center;
 }
 
 .post-title{
