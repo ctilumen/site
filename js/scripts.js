@@ -37,7 +37,11 @@
         };
         
         $("#fotos-antigas").pwi(settings);
-    
+        
+        $(".hamburguer").click(function() {
+            $(this).toggleClass("on");
+            $("html").toggleClass("menu-open");
+        });
     });
     
 })(jQuery);
