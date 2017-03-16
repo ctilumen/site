@@ -2,16 +2,25 @@
     background-color: #ffffff;
     color: #000000;
     bottom: 0;
-    position: absolute;
     right: -300px;
+    display: none;
     top: 65px;
     width: 213px;
-    height: 350px;
+    height: 330px;
     z-index: 100;
     transition: all 300ms ease;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
+           
+           
+            @media (max-width: 2560px) and (min-width: 768px) {
+           display: none;
+           position: inherit;
+            font-size: 16px;
+            margin-right: -17px;
+           }
 
+        
     
     li{
         
@@ -26,7 +35,9 @@
 
 
 .menu-open .menu-mobile{
+    display: block;
     right: 0;
+    position: absolute;
 }
 
 .menu-top {
@@ -156,7 +167,7 @@ a {
 .accordion {
   width: 100%;
   max-width: 213px;
-  height: 350px;
+  height: 330px;
   margin: 0px -16px 0px;
   background: #FFF;
   -webkit-border-radius: 4px;
