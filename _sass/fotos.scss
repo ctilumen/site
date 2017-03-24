@@ -1,5 +1,17 @@
 .gallery{
     
+   @media (max-width: 2560px){
+            padding-top: 168px;   
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 123px;   
+     }
+     
+     @media (max-width: 425px){
+            padding-top: 65px;   
+     }
+    
     > h2{
         color: #0063b3;
         font: 700 30px/1 'Roboto Condensed', sans-serif;

@@ -1,6 +1,10 @@
 .header{
     background: #0063b3;
-    
+    z-index: 9999;
+     position: fixed;
+     width: 100%;
+     left: 0%;
+        
     @media (max-width: $xs){
         height: 65px;
     }
@@ -8,6 +12,7 @@
     nav{
         @media (max-width: $xs){
             display: none;
+            
         }
         
         ul{
@@ -16,6 +21,7 @@
             list-style: none;
             margin: 0;
             padding: 0;
+            
         }
         
         li{
@@ -51,23 +57,38 @@
     }
     
     .site-logo{
-        display: block;
-        padding: 10px 0;
-        text-align: center;
+
         
-        @media (max-width: $xs){
-            display: inline-block;
-            text-align: left;
-            margin-top: -7px;
-            margin-left: 10px;
-            
-            img{
+             img{
+                  @media (max-width: 425px){
+                display: inline-block;
+                text-align: left;
                 width: 144px;
-                margin-top: -35px;
-                margin-left: 45px;
+                margin-top: -39px;
+                margin-left: 75px;
                
+                 }
+                 
+                 
+                    @media (max-width: 375px){
+                display: inline-block;
+                text-align: left;
+                width: 144px;
+                margin-top: -39px;
+                margin-left: 55px;
+               
+                 }
+                 
+                   @media (max-width: 320px){
+                display: inline-block;
+                text-align: left;
+                width: 144px;
+                margin-top: -39px;
+                margin-left: 30px;
+               
+                 }
+            
             }
-        }
     }
 }
 
@@ -160,5 +181,6 @@
         
         
         }
+        
     }
 }

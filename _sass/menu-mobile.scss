@@ -16,8 +16,8 @@
             @media (max-width: 2560px) and (min-width: 768px) {
            display: none;
            position: inherit;
-            font-size: 16px;
-            margin-right: -17px;
+           font-size: 16px;
+           margin-right: -17px;
            }
 
         
@@ -37,7 +37,7 @@
 .menu-open .menu-mobile{
     display: block;
     right: 0;
-    position: absolute;
+    position: fixed;
 }
 
 .menu-top {

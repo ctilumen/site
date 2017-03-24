@@ -3,6 +3,18 @@
     margin: 0;
     padding: 0;
     
+       @media (max-width: 2560px){
+            padding-top: 168px;   
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 123px;   
+     }
+     
+     @media (max-width: 425px){
+            padding-top: 65px;   
+     }
+    
     li{
         background: #f5f5f5;
         margin: 30px 0 0;
@@ -14,11 +26,24 @@
         }
         
         .post-title{
+               @media (max-width: 2560px){
+            padding-top: 0px;   
+             }
+             
+              @media (max-width: 768px){
+                    padding-top: 0px;   
+             }
+             
+             @media (max-width: 425px){
+                    padding-top: 0px;   
+             }
             color: #0063b3;
             display: block;
             font-size: 18px;
             font-weight: 900;
             margin-right: 100px;
+            
+            
         }
         
         .btn{
@@ -38,6 +63,8 @@
 .post-container{
     padding-top: 30px;
     padding-bottom: 30px;
+    
+   
 }
 
 .pagination{

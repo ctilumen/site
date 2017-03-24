@@ -49,6 +49,19 @@
 }
 
 .post-aluno{
+    
+        @media (max-width: 2560px){
+            padding-top: 168px;  
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 123px;   
+     }
+     
+       @media (max-width: 425px){
+            padding-top: 65px;   
+     }
+    
     background: #f4f4f4;
     margin-top: 30px;
     
@@ -106,6 +119,18 @@
     
     &.calendarios{
         
+           @media (max-width: 2560px){
+            padding-top: 0px;  
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 0px;   
+     }
+     
+       @media (max-width: 425px){
+            padding-top: 0px;   
+     }
+        
         .btn{
             text-align: center;
             width: 100%;
@@ -113,6 +138,18 @@
     }
     
     &.aprovados{
+        
+           @media (max-width: 2560px){
+            padding-top: 0px;  
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 0px;   
+     }
+     
+       @media (max-width: 425px){
+            padding-top: 0px;   
+     }
         
         table{
             margin-top: 30px;
@@ -137,4 +174,19 @@
             }
         }
     }
+}
+
+.MsoNormalTable{
+    
+     @media (max-width: 2560px){
+            padding-top: 168px;  
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 123px;   
+     }
+     
+       @media (max-width: 425px){
+            padding-top: 65px;   
+     }
 }
