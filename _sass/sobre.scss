@@ -3,11 +3,15 @@
     padding: 0;
     
        @media (max-width: 2560px){
-            padding-top: 168px;   
+            padding-top: 145px;   
+     }
+     
+     @media (max-width: 1024px){
+            padding-top: 123px;   
      }
      
       @media (max-width: 768px){
-            padding-top: 123px;   
+            padding-top: 101px;   
      }
      
        @media (max-width: 425px){

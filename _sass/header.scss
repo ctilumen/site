@@ -3,8 +3,18 @@
     z-index: 9999;
      position: fixed;
      width: 100%;
+     height: 148px;
      left: 0%;
         
+    
+        @media (max-width: 1024px){
+        height: 129px;
+        }
+        
+         @media (max-width: 768px){
+        height: 103px;
+        }
+    
     @media (max-width: $xs){
         height: 65px;
     }
@@ -33,18 +43,21 @@
             display: block;
             font-size: 18px;
             font-weight: 400;
-            height: 133px;
+            height: 110px;
             line-height: 133px;
             text-align: center;
             text-transform: uppercase;
             
+              @media (max-width: 1024px){
+                    height: 91px;
+                }
             &:hover{
                 background: #025293;
                 text-decoration: none;
             }
             
             @media (max-width: $sm){
-                height: 87px;
+                height: 66px;
                 line-height: 87px;
             }
             

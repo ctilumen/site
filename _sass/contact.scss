@@ -2,11 +2,15 @@
     margin: 30px 0;
     
        @media (max-width: 2560px){
-            padding-top: 168px;   
+            padding-top: 145px;   
      }
      
-      @media (max-width: 768px){
+     @media (max-width: 1024px){
             padding-top: 123px;   
+     }
+     
+       @media (max-width: 768px){
+            padding-top: 101px;   
      }
 
   @media (max-width: 425px){
@@ -28,8 +32,12 @@
             padding-top: 130px;   
      }
      
+      @media (max-width: 1024px){
+            padding-top: 120px;   
+     }
+     
       @media (max-width: 768px){
-            padding-top: 100px;   
+            padding-top: 90px;   
      }
 
   @media (max-width: 425px){
