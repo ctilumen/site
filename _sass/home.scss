@@ -41,8 +41,8 @@
             border-radius: 30px;
             border: none;
             font-size: 0;
-            height: 30px;
-            width: 30px;
+            height: 15px;
+            width: 15px;
         }
         
         .slick-active{
@@ -52,6 +52,29 @@
             }
         }
     }
+}
+
+
+.btn2 {
+     @media (max-width: 425px){
+            display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+     justify-content: space-between;
+               margin-top: -2px; 
+               height: 50px;
+               width: 244px;
+        }
+        
+ 
+        
+    background: #FF007D;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    
+   
 }
 
 .home-features{
@@ -90,7 +113,7 @@
         color: #0063b3;
         font: 700 18px/1 'Roboto Condensed', sans-serif;
         height: 50px;
-        margin-bottom: 0;
+        margin-bottom: -15px;
         text-align: center;
         text-transform: uppercase;
     }
