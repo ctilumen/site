@@ -1,15 +1,31 @@
 .social{
     
+    
     a:hover{
         text-decoration: none;
+        
     }
     
     svg{
+        
+        
         background: #fff;
         fill: #0063b3;
         
+        
+    @media (max-width: 768px) {
+             display: inline-block;
+             margin-left: -10px;
+         }
+         
+          @media (max-width: 1024px) {
+             display: inline-block;
+             margin-left: 0px;
+         }
+        
         &:hover{
             fill: #025293;
+            
         }
     }
 }
