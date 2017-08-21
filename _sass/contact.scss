@@ -106,3 +106,53 @@
     
     
 }
+
+
+
+
+.cad{
+    margin: 30px 0;
+    
+       @media (max-width: 2560px){
+            padding-top: 0px;
+            margin-top: -20px;
+            margin-left: 115px;
+     }
+     
+      @media (max-width: 1024px){
+            padding-top: 0px;   
+            margin-top: -45px;
+            margin-left: 50px;
+     }
+     
+      @media (max-width: 768px){
+            padding-top: 0px;  
+             margin-left: -10px;
+             margin-top: -41px;
+             margin-bottom: 0px;
+     }
+
+  @media (max-width: 425px){
+            padding-top: 0px;
+            margin-top: -7px;
+            margin-bottom: 0px;
+            margin-left: -6px;
+            width: 425px;
+     }
+     
+     @media (max-width: 375px){
+            padding-top: 0px;
+            margin-top: -7px;
+            margin-bottom: 0px;
+            margin-left: -6px;
+            width: 375px;
+     }
+     
+     @media (max-width: 320px){
+            padding-top: 0px;
+            margin-bottom: 0px;
+            margin-top: -7px;
+            margin-left: -6px;
+            width: 320px;
+     }
+}
