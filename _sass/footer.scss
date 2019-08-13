@@ -2,38 +2,6 @@
     background: #0063b3;
     padding: 30px 0;
     
-	@media (max-width: 1440px){
-	width:1849px;
-			
-     }
-	 
-	 @media (max-width: 1024px){
-	width:1405px;
-			
-     }
-	 
-	 @media (max-width: 768px){
-	width:1281px;
-			
-     }
-	 
-	 
-	@media (max-width: 425px){
-	width:1161px;
-			
-     }
-	 
-	 @media (max-width: 375px){
-	width:957px;
-			
-     }
-	
-	
-	@media (max-width: 320px){
-	width:837px;
-			
-     }
-	
     @media (max-width: $xs){
         padding-top: 0;
     }
