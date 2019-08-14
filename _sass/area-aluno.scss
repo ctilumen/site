@@ -222,7 +222,8 @@
      }
 	
 	 @media (max-width: 425px){
-            top:0px; 
+            width:695px;
+            top:-36px; 
 	        left:0px;
      }
 	 
@@ -249,12 +250,26 @@
 	top:-248px; 
 	left:335px;
 	
+
+
+        @media (max-width: 1200px){
+            top:-218px; 
+            left:267px;
+     }
+     
+
+
 	   @media (max-width: 1024px){
-            width:154px;
-            top:-172px; 
-	        left:195px;
+            top:-215px; 
+	        left:266px;
      }
 	 
+
+      @media (max-width: 991px){
+            width:154px;
+            top:-167px; 
+            left:212px;
+     }
 	 
 	  @media (max-width: 768px){
             top:-146px; 
@@ -263,6 +278,7 @@
      }
 
       @media (max-width: 721px){
+            left:200px;
             top:-146px; 
             width:118px;
      }
@@ -306,7 +322,7 @@
      }
 
 	 @media (max-width: 425px){
-            top:-161px; 
+            top:-144px; 
 	        left:204px;
      }
 	
@@ -324,11 +340,22 @@
 	z-index:2;
 	top:-249px; 
 	left:575px;
+
+
+      @media (max-width: 1200px){
+            top:-218px; 
+            left:487px;
+     }
 	
 	   @media (max-width: 1024px){
-           width:154px;
-            top:-172px; 
-	        left:380px;
+            top:-215px; 
+	        left:482px;
+     }
+
+     @media (max-width: 991px){
+            width:154px;
+            top:-167px; 
+            left:383px;
      }
 	 
 	  @media (max-width: 768px){
@@ -382,7 +409,7 @@
 
 
 	 @media (max-width: 425px){
-            top:-161px; 
+            top:-144px; 
 	        left:367px;
      }
 	
@@ -401,11 +428,25 @@
 	top:-83px; 
 	left:470px;
 	
-	   @media (max-width: 1024px){
-            width:130px;
-            top:-55px; 
-	        left:309px;
+
+       @media (max-width: 1200px){
+            top:-67px; 
+            left:371px;
      }
+
+
+	   @media (max-width: 1024px){
+            top:-67px; 
+	        left:378px;
+     }
+
+     @media (max-width: 991px){
+            width:130x;
+            top:-51px; 
+            left:287px;
+     }
+
+
 	  @media (max-width: 768px){
             top:-73px; 
 	        left:286px;
@@ -414,13 +455,13 @@
 	
       @media (max-width: 721px){
             left:258px;
-            top:-146px; 
+            top:-71px; 
             width:118px;
      }
 
      @media (max-width: 675px){
             left:235px;
-            top:-146px; 
+            top:-70px; 
             width:118px;
      }
 
