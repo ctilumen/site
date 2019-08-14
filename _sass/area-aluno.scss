@@ -200,24 +200,22 @@
 	.fundo{
 	display: block;
 	margin-top:135px;
-	width:1140px;
 	z-index:0;
 	
 	@media (max-width: 1440px){
 	        position:relative;
+            margin-left:0px;
 			
 			
      }
 	
 	@media (max-width: 1024px){
 	        position:relative;
-			width:945px;
 			top:0px; 
 	        left:0px;
 			
      }
 	  @media (max-width: 768px){
-	        width:711px;
             top:0px; 
 	        left:0px;
 			
@@ -252,8 +250,9 @@
 	left:335px;
 	
 	   @media (max-width: 1024px){
-            top:-217px; 
-	        left:277px;
+            width:154px;
+            top:-172px; 
+	        left:195px;
      }
 	 
 	 
@@ -262,7 +261,50 @@
 	        left:221px;
 			width:118px;
      }
+
+      @media (max-width: 721px){
+            top:-146px; 
+            width:118px;
+     }
+
+       @media (max-width: 675px){
+            left:178px;
+            top:-146px; 
+            width:118px;
+     }
+
+      @media (max-width: 629px){
+            left:169px;
+            top:-127px; 
+            width:103px;
+     }
 	
+   @media (max-width: 591px){
+            left:154px;
+            top:-127px; 
+            width:103px;
+     }
+
+
+ @media (max-width: 560px){
+            left:137px;
+            top:-114px; 
+            width:95px;
+     }
+
+
+@media (max-width: 530px){
+            left:154px;
+            top:-109px; 
+            width:95px;
+     }
+
+     @media (max-width: 500px){
+            left:132px;
+            top:-100px; 
+            width:84px;
+     }
+
 	 @media (max-width: 425px){
             top:-161px; 
 	        left:204px;
@@ -271,6 +313,9 @@
 	
 	}
 	
+
+
+
 	.botaot{
 	display:block;
 	position:relative; 
@@ -281,8 +326,9 @@
 	left:575px;
 	
 	   @media (max-width: 1024px){
-            top:-217px; 
-	        left:494px;
+           width:154px;
+            top:-172px; 
+	        left:380px;
      }
 	 
 	  @media (max-width: 768px){
@@ -291,7 +337,50 @@
 			width:120px;
 			height:20px;
      }
+
+     @media (max-width: 721px){
+            left:340px;
+            top:-146px; 
+            width:118px;
+     }
+
+      @media (max-width: 675px){
+            left:322px;
+            top:-146px; 
+            width:118px;
+     }
+
+      @media (max-width: 629px){
+            left:300px;
+            top:-127px; 
+            width:103px;
+     }
+
+     @media (max-width: 591px){
+            left:283px;
+            top:-127px; 
+            width:103px;
+     }
 	
+@media (max-width: 560px){
+            left:272px;
+            top:-114px; 
+            width:95px;
+     }
+
+     @media (max-width: 530px){
+            left:248px;
+            top:-109px; 
+            width:95px;
+     }
+
+     @media (max-width: 500px){
+            left:231px;
+            top:-100px; 
+            width:84px;
+     }
+
+
 	 @media (max-width: 425px){
             top:-161px; 
 	        left:367px;
@@ -300,6 +389,8 @@
 	
 	}
 	
+
+
 	
 	.reg{
 	display:block;
@@ -311,8 +402,9 @@
 	left:470px;
 	
 	   @media (max-width: 1024px){
-            top:-67px; 
-	        left:380px;
+            width:130px;
+            top:-55px; 
+	        left:309px;
      }
 	  @media (max-width: 768px){
             top:-73px; 
@@ -320,6 +412,48 @@
 			width:120px;
      }
 	
+      @media (max-width: 721px){
+            left:258px;
+            top:-146px; 
+            width:118px;
+     }
+
+     @media (max-width: 675px){
+            left:235px;
+            top:-146px; 
+            width:118px;
+     }
+
+      @media (max-width: 629px){
+            left:224px;
+            top:-64px; 
+            width:103px;
+     }
+
+     @media (max-width: 591px){
+            left:206px;
+            top:-64px; 
+            width:103px;
+     }
+
+     @media (max-width: 560px){
+            left:200px;
+            top:-61px; 
+            width:95px;
+     }
+
+      @media (max-width: 530px){
+            left:182px;
+            top:-58px; 
+            width:95px;
+     }
+
+      @media (max-width: 500px){
+            left:170px;
+            top:-56px; 
+            width:84px;
+     }
+
 	 @media (max-width: 425px){
             top:-73px; 
 	        left:274px;
