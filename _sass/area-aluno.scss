@@ -326,6 +326,12 @@
 	        left:107px;
      }
 
+       @media (max-width: 375px){
+            width:72px;
+            top:-81px; 
+            left:99px;
+     }
+
       @media (max-width: 320px){
             width:60px;
             top:-68px; 
@@ -418,6 +424,13 @@
             top:-93px; 
 	        left:204px;
      }
+
+       @media (max-width: 375px){
+            width:72px;
+            top:-81px; 
+            left:184px;
+     }
+
 
        @media (max-width: 320px){
             width:60px;
@@ -513,11 +526,20 @@
      }
 
 
+       @media (max-width: 375px){
+            width:72px;
+            top:-50px; 
+            left:130px;
+     }
+
+
       @media (max-width: 320px){
             width:60px;
             top:-47px; 
             left:112px;
      }
+
+
 	
 	
 	}
