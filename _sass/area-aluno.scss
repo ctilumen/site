@@ -272,7 +272,7 @@
      }
 	 
 	  @media (max-width: 768px){
-            top:-160px; 
+            top:-146px; 
 	        left:221px;
 			width:118px;
      }
@@ -322,8 +322,14 @@
      }
 
 	 @media (max-width: 425px){
-            top:-144px; 
-	        left:204px;
+            top:-93px; 
+	        left:107px;
+     }
+
+      @media (max-width: 320px){
+            width:60px;
+            top:-68px; 
+            left:81px;
      }
 	
 	
@@ -409,8 +415,14 @@
 
 
 	 @media (max-width: 425px){
-            top:-144px; 
-	        left:367px;
+            top:-93px; 
+	        left:204px;
+     }
+
+       @media (max-width: 320px){
+            width:60px;
+            top:-68px; 
+            left:151px;
      }
 	
 	
@@ -496,8 +508,15 @@
      }
 
 	 @media (max-width: 425px){
-            top:-73px; 
-	        left:274px;
+            top:-50px; 
+	        left:149px;
+     }
+
+
+      @media (max-width: 320px){
+            width:60px;
+            top:-47px; 
+            left:112px;
      }
 	
 	
