@@ -31,6 +31,11 @@
             list-style: none;
             margin: 0;
             padding: 0;
+              
+              
+
+
+
             
         }
         
@@ -55,12 +60,24 @@
                 background: #025293;
                 text-decoration: none;
             }
+
+               
+        @media (max-width: 768px){
+                height: 66px;
+                line-height: 87px;
+                margin-top: -1px;
+                margin-righ: 11px;
+            } 
+
+
             
             @media (max-width: $sm){
                 height: 66px;
                 line-height: 87px;
             }
             
+
+
             @media (max-width: $xs){
                 height: 50px;
                 line-height: 30px;
