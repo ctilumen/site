@@ -32,7 +32,7 @@
             margin: 0;
             padding: 0;
               
-              
+
 
 
 
@@ -53,6 +53,15 @@
             text-align: center;
             text-transform: uppercase;
             
+
+             @media (max-width: 768px){
+                height: 66px;
+                line-height: 87px;
+                margin-top: -1px;
+                margin-left: -82px;
+            }
+
+
               @media (max-width: 1024px){
                     height: 91px;
                 }
@@ -62,12 +71,7 @@
             }
 
                
-        @media (max-width: 768px){
-                height: 66px;
-                line-height: 87px;
-                margin-top: -1px;
-                margin-righ: 11px;
-            } 
+         
 
 
             
