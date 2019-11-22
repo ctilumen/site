@@ -55,7 +55,7 @@
             
 
              @media (max-width: 768px){
-                height: 66px;
+                height: 33px;
                 line-height: 87px;
                 margin-top: -1px;
                 margin-left: -82px;
@@ -68,6 +68,11 @@
             &:hover{
                 background: #025293;
                 text-decoration: none;
+
+
+                @media (max-width: 1200px){
+                height: 89px;
+            }
             }
 
                
@@ -94,7 +99,19 @@
 
         
              img{
-                               
+                   
+
+                  @media (max-width: 1200px){
+                display: inline-block;
+                text-align: left;
+                width:213px;
+                margin-top: 0px;
+                              
+                 }  
+
+                 
+
+
                    
                  @media (max-width: 768px){
                 display: inline-block;
@@ -188,6 +205,13 @@
     display: flex;
     justify-content: space-between;
     
+
+
+
+    @media (max-width: 1200px){
+        margin-left: 49px;
+        }
+
     @media (max-width: $xs){
         display: none;
         text-align: center;
@@ -208,6 +232,12 @@
         font-size: 16px;
         margin-left: 30px;
         vertical-align: top;
+
+         @media (max-width: 1200px){
+        display: inline-block;
+            font-size: 16px;
+             margin-left: 78px;
+        }
         
         @media (max-width: 1024px) {
            display: inline-block;
@@ -264,6 +294,7 @@
              display: inline-block;
              margin-left: -65px;
          }
+
          
          @media (max-width: 768px) {
              display: inline-block;
