@@ -34,11 +34,7 @@
   
         }
 
-        .text{
-            @media (max-width: 1024px){
-            margin-top: -27px
-            }
-        }
+        
         
         li{
             width: 25%;
@@ -333,4 +329,12 @@
         }
         
     }
+
+
+.text{
+            @media (max-width: 1024px){
+            margin-top: -27px
+            }
+        }
+    
 }
