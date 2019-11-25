@@ -74,14 +74,7 @@
 
             
            
-            @media (max-width: $sm){
-                height: 66px;
-                line-height: 87px;
-            }
-            
-
-
-            @media (max-width: $xs){
+               @media (max-width: $xs){
                 height: 50px;
                 line-height: 30px;
                 font-size: 14px;
