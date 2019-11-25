@@ -53,18 +53,14 @@
 
              @media (max-width: 768px){
                 height: 33px;
-                line-height: 87px;
-                margin-top: -1px;
-                margin-left: -82px;
+                line-height: 46px;
+                margin-left: 13px;
             }
 
-            text{
+            
             @media (max-width: 1024px){
-                       margin-top: -30px;
+                      line-height: 78px;
                 }
-          
-
-            }
 
 
 
@@ -133,7 +129,7 @@
                  @media (max-width: 768px){
                 display: inline-block;
                 text-align: left;
-                width:83px;
+                width:129px;
                 margin-top: 0px;
                               
                  }  
@@ -269,7 +265,7 @@
         
        @media (max-width: 768px) {
            display: inline-block;
-            font-size: 16px;
+            font-size: 12px;
             margin-right: -19px;
            }
        
@@ -330,11 +326,6 @@
         
     }
 
-
-.text{
-            @media (max-width: 1024px){
-            margin-top: -27px
-            }
-        }
-    
 }
+
+
