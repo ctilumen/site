@@ -54,6 +54,7 @@
 
             @media (max-width: 1200px){
                 height: 89px;
+                line-height: 91px;
                }
                    
 
@@ -217,6 +218,15 @@
     justify-content: space-between;
     
        
+
+
+        @media (max-width: 1200px){
+       margin-left: 69px;
+       }
+
+
+
+
        @media (max-width: 1024px){
        margin-left: 20px;
        }
