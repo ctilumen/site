@@ -31,12 +31,13 @@
             list-style: none;
             margin: 0;
             padding: 0;
-              
+  
+        }
 
-
-
-
-            
+        text{
+            @media (max-width: 1024px){
+            margin-top: -27px
+            }
         }
         
         li{
@@ -222,7 +223,14 @@
     display: flex;
     justify-content: space-between;
     
+       
+       @media (max-width: 1024px){
+       margin-left: 20px;
+       }
 
+
+
+       
     @media (max-width: $xs){
         display: none;
         text-align: center;
@@ -314,7 +322,7 @@
          
           @media (max-width: 1024px) {
              display: inline-block;
-             margin-left: -55px;
+             margin-left: -37px;
          }
         
         
