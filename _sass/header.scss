@@ -53,8 +53,9 @@
 
 
             @media (max-width: 1200px){
-                height: 89px;
-                line-height: 91px;
+                line-height: 114px;
+                height: 111px;
+                
                }
                    
 
@@ -226,11 +227,9 @@
 
 
 
-
        @media (max-width: 1024px){
        margin-left: 20px;
        }
-
 
 
        
@@ -316,10 +315,13 @@
              display: inline-block;
              margin-left: -65px;
          }
+          
 
-
-
-               
+          @media (max-width: 1200px) {
+             display: inline-block;
+             margin-left: -7px;
+         }
+             
           @media (max-width: 1024px) {
              display: inline-block;
              margin-left: -37px;
