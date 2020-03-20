@@ -74,8 +74,77 @@
         width: 90px;
 
            @media (max-width: 992px){
-           width: 0px;
+           width: 310px;
+           text-align: center;
+           margin-left: 60px;
            }
+
+
+           @media (max-width: 736px){
+           width: 310px;
+           text-align: center;
+           margin-left: 12px;
+           }
+
+
+           @media (max-width: 678px){
+           width: 310px;
+           text-align: center;
+           margin-left: 12px;
+           }
+
+
+            @media (max-width: 574px){
+           width: 198px;
+           text-align: center;
+           margin-left: 45px;
+           }
+
+
+            @media (max-width: 491px){
+           width: 156px;
+           text-align: center;
+           margin-left: 28px;
+           }
+
+
+            @media (max-width: 491px){
+           width: 156px;
+           text-align: center;
+           margin-left: 28px;
+           }
+
+
+
+            @media (max-width: 438px){
+           width: 156px;
+           text-align: center;
+           margin-left: 11px;
+           }
+
+
+
+            @media (max-width: 381px){
+           width: 156px;
+           text-align: center;
+           margin-left: 0px;
+           }
+
+
+           @media (max-width: 328px){
+           width: 120px;
+           text-align: center;
+           margin-left: 13px;
+           }
+
+
+            @media (max-width: 290px){
+           text-align: center;
+           margin-left: 5px;
+           }
+
+
+
     }
 
 }
