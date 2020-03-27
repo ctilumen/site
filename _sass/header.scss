@@ -107,16 +107,24 @@
                  }  
 
 
+            @media (max-width: 1199px){
+                display: inline-block;
+                text-align: left;
+                width:158px;
+                margin-top: 0px;
+                              
+                 } 
+
 
                  @media (max-width: 1024px){
                 display: inline-block;
                 text-align: left;
-                width:170px;
+                width:115px;
                 margin-top: 0px;
                               
                  }  
 
-
+                 
       
                  @media (max-width: 768px){
                 display: inline-block;
@@ -326,6 +334,11 @@
          }
 
          
+         @media (max-width: 774px) {
+             display: inline-block;
+             margin-left: -27px;
+         }
+
          @media (max-width: 768px) {
              display: inline-block;
              margin-left: -39px;
