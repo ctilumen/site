@@ -596,6 +596,7 @@
 
    
  p{
+  padding-top: 15px;
   color: black;
   font-weight: bold;
  }
@@ -604,9 +605,14 @@ h3 {
 color: red;
 font-weight: bold;
 }
+
 btn2{
-    color:red;
+
+    color: #ff0000;
+     border: 5px solid transparent;
+    border-radius: 4px;
 }
+
 }
 
 
