@@ -34,7 +34,7 @@
 }
 
 
-.menu-open .menu-mobile .menu-top{
+.menu-open .menu-mobile {
     display: block;
     right: 0;
     position: fixed;
@@ -42,7 +42,7 @@
 
 
 
-.hamburguer {
+.hamburguer .menu-top{
     cursor: pointer;
     display: none;
     height: 30px;
