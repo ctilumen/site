@@ -46,6 +46,7 @@
             font-size: 18px;
             font-weight: 400;
             height: 110px;
+            width: 160px;
             line-height: 133px;
             text-align: center;
             text-transform: uppercase;
@@ -365,6 +366,15 @@
         }
         
     }
+
+}
+
+.corpo{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 83px;
 
 }
 
