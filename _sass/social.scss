@@ -18,6 +18,11 @@
              margin-left: 6px;
          }
 
+           @media (max-width: 976px) {
+             display: inline-block;
+             margin-left: -4px;
+             width: 30px;
+         }
 
 
          @media (max-width: 775x) {
@@ -25,6 +30,11 @@
              margin-left: -8px;
              width: 28px;
          }
+
+
+
+
+
          
         
     @media (max-width: 768px) {
