@@ -17,6 +17,14 @@
              display: inline-block;
              margin-left: 6px;
          }
+
+
+
+         @media (max-width: 775x) {
+             display: inline-block;
+             margin-left: -8px;
+             width: 28px;
+         }
          
         
     @media (max-width: 768px) {

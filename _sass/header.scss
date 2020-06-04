@@ -452,11 +452,19 @@
              margin-left: 16px;
          }
 
+
+
+
+          @media (max-width: 976px) {
+             display: inline-block;
+             margin-left: 3px;
+         }
+
          
 
            @media (max-width: 776px) {
              display: inline-block;
-             margin-left: 10px;
+             margin-left: 3px;
          }
 
 
