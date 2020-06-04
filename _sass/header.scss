@@ -134,7 +134,7 @@
                   @media (max-width: 1200px){
                 display: inline-block;
                 text-align: left;
-                width:189px;
+                width: 258px;
                 margin-top: 0px;
                               
                  }  
@@ -143,7 +143,7 @@
             @media (max-width: 1199px){
                 display: inline-block;
                 text-align: left;
-                width:158px;
+                width: 158px;
                 margin-top: 0px;
                               
                  } 
@@ -263,9 +263,15 @@
     
        
 
-
-        @media (max-width: 1200px){
+          
+          @media (max-width: 1200px){
              margin-left: 0px;
+       }
+
+
+        @media (max-width: 1999px){
+             margin-left: -71px;
+             width: 1100px;
        }
 
 
@@ -373,7 +379,15 @@
 
           @media (max-width: 1200px) {
              display: inline-block;
-             margin-left: -41px;
+             margin-left: -6px;
+ 
+         }
+
+
+
+         @media (max-width: 1999px) {
+             display: inline-block;
+             margin-left: -25px;
  
          }
 
