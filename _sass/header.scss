@@ -168,15 +168,22 @@
 
 
                  @media (max-width: 991px){
-                display: inline-block;
-                text-align: left;
-                width: 219px;
-                margin-top: 10px;
+                    display: inline-block;
+                    text-align: left;
+                    width: 219px;
+                    margin-top: 10px;
+                    margin-left: -89px;
                               
                  }  
 
                  
-      
+                 @media (max-width: 769px){
+                        display: inline-block;
+                        text-align: left;
+                        width: 158px;
+               
+                 }
+
                
 
                     @media (max-width: 768px){
@@ -305,6 +312,14 @@
         @media (max-width: 991px){
             margin-left: -112px;
             width: 952px;
+       }
+
+          
+
+
+          @media (max-width: 769px){
+            margin-left: -8px;
+            width: 748x;
        }
 
 
