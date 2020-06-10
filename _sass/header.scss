@@ -39,6 +39,11 @@
         li{
             width: 25%;
 
+             @media (max-width: 1045px){
+                  width: 58%;
+                margin-left: 83px;
+               }
+
              @media (max-width: 991px){
                   width: 22%;
                 margin-left: -131px;
@@ -82,8 +87,7 @@
                @media (max-width: 1045px){
                 line-height: 114px;
                 height: 111px;
-                width: 192px;
-                margin-left: -85px;
+                   margin-left: -85px;
                 
                }
                    
