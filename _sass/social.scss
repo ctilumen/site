@@ -11,7 +11,8 @@
         
         background: #fff;
         fill: #0063b3;
-        
+        width: 35px;
+        height: 35px;
 
         @media (max-width: 1200px) {
              display: inline-block;
@@ -22,6 +23,7 @@
              display: inline-block;
              margin-left: -4px;
              width: 30px;
+             height: 30px;
          }
 
 
@@ -29,6 +31,7 @@
              display: inline-block;
              margin-left: -8px;
              width: 28px;
+             height: 28px;
          }
 
 
