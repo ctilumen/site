@@ -637,3 +637,45 @@ font-weight: bold;
     }
 }
 
+
+
+
+.space{
+ margin-left: 55px;
+ 
+  @media (max-width: 991px){
+    
+           margin-left: -1px;
+      
+     }
+     
+     
+     
+     @media (max-width: 748px){
+           margin-left: -5px;
+  
+     }
+     
+     
+     
+      @media (max-width: 712px){
+           display: block;
+           margin-top: 10px;
+  
+     }
+     
+     
+     a{
+           margin-top: 10px;
+           margin-left: 9px;
+           width: 214px;
+           
+           @media (max-width: 730px){
+               width: 214px;
+               margin-top: 10px;
+               }
+           
+           
+           }
+     
+}
