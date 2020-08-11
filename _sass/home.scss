@@ -281,3 +281,245 @@
         }
     }
 }
+
+
+
+
+
+
+.app-badge-google {
+    display: inline-block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+        
+        
+        
+        
+    @media (max-width: 1440px){
+        margin-left: 0px;
+    
+    }
+    
+    
+    @media (max-width: 1199px){
+        margin-top: 0px;
+        margin-left: -100px;
+    }
+    
+    
+    @media (max-width: 1024px){
+        margin-top: 0px;
+        margin-left: -42px;
+    }
+    
+    
+    
+    @media (max-width: 991px){
+        margin-top: 0px;
+        margin-left: -139px;
+        width: 170px;
+        
+    }
+    
+    
+    
+    
+    @media (max-width: 768px){
+         width: 160px;
+        height: 88px;
+        margin-top: 0px;
+        margin-left: -25px;
+    }
+    
+    @media (max-width: 425px){
+        width: 100px;
+        height: 55px;
+        margin-top: 0px;
+        margin-left: -16px;
+    }
+    
+    @media (max-width: 375px){
+        width: 84px;
+        height: 47px;
+        margin-top: 0px;
+        margin-left: -16px;
+    }
+    
+    @media (max-width: 320px){
+        width: 70px;
+        height: 38px;
+        margin-top: 0px;
+        margin-left: -16px;
+    }
+    
+}
+
+
+
+
+
+.app-badge-apple {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 918px;
+
+    
+    @media (max-width: 1440px){
+        margin-left: 918px;
+        
+        }
+        
+        
+        @media (max-width: 1199px){
+        margin-top: 0px;
+        margin-left: 819px;
+    }
+    
+    
+    @media (max-width: 1024px){
+        margin-top: 0px;
+        margin-left: 759px;
+        
+    }
+    
+    
+    
+    @media (max-width: 991px){
+        margin-top: 0px;
+        margin-left: 687px;
+        width: 170px;
+        
+    }
+    
+    
+    
+    @media (max-width: 768px){
+        width: 160px;
+        height: 88px;
+        margin-top: 0px;
+        margin-left: 585px;
+    }
+    
+    
+    @media (max-width: 425px){
+        width: 100px;
+        height: 55px;
+        margin-top: 0px;
+        margin-left: 311px;
+    }
+    
+    @media (max-width: 375px){
+        width: 84px;
+        height: 47px;
+        margin-top: 0px;
+        margin-left: 278px;
+    }
+    
+    @media (max-width: 320px){
+        width: 70px;
+        height: 38px;
+        margin-top: 0px;
+        margin-left: 235px;
+    }
+    
+}
+    
+
+
+    
+
+.pc {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 230px;
+    
+    
+    
+    @media (max-width: 1440px){
+        margin-left: 230px;
+        
+        }
+        
+        
+        @media (max-width: 1199px){
+        margin-top: 0px;
+        margin-left: 130px;
+    }
+    
+    
+    @media (max-width: 1024px){
+        width: 569px;
+        margin-top: 0px;
+        margin-left: 185px;
+        
+        img{
+        height: 120px;
+        }
+        
+    }
+    
+    
+    
+    @media (max-width: 991px){
+        width: 638px;
+        margin-top: 0px;
+        margin-left: 42px;
+        
+        img{
+        width: 800px;
+        height: 93px;
+        }
+        
+    }
+    
+    
+    
+    @media (max-width: 768px){
+        width: 435px;
+        margin-top: 0px;
+        margin-left: 142px;
+        
+        img{
+        height: 88px;
+        }
+    }
+    
+    
+    @media (max-width: 425px){
+        width: 215px;
+        margin-top: 0px;
+        margin-left: 90px;
+        
+        img{
+            height: 55px;
+        }
+    }
+    
+    @media (max-width: 375px){
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 73px;
+        
+        img{
+        
+        height: 47px;
+        }
+    }
+    
+    
+    
+    
+    @media (max-width: 320px){
+        width: 170px;
+        margin-top: 0px;
+        margin-left: 60px;
+        
+        img{
+        height: 38px;
+        }
+    }
+    
+    
+
+}
