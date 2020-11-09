@@ -235,16 +235,12 @@
         
         @media (max-width: 767px){
             display: block;
+            font-size: 13px;
             height: auto;
             margin: 10px 0;
             width: 100%;
 
-            b, strong{
-            font-size: 13px;
-
-            }
-
-        }
+         }
         
         &:first-child{
             background: #00AFEF;

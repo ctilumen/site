@@ -235,6 +235,7 @@
 
 .dropdown-content {
     display: none;
+    text-decoration: none;
     position: absolute;
     background-color: #ffffff;
     color: #000000;
@@ -251,6 +252,7 @@
 
 
 .dropdown:hover .dropdown-content {
+    background-color: blue;
     display: block;
 }
 
