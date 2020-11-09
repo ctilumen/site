@@ -323,7 +323,7 @@ a {
 
 .accordion .link {
     cursor: pointer;
-  background: #fff;
+    background: #fff;
     display: block;
     text-decoration: none;
     padding: 9px 14px 7px 40px;
@@ -335,6 +335,12 @@ a {
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
+
+    a:hover{
+    text-decoration: none;
+    background-color:  #0063b3;
+
+    }
 
 }
 
