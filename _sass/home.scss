@@ -253,6 +253,12 @@
             text-decoration: none;
         }
         
+        &:visited{
+
+        text-decoration: none;
+        background: blue;
+        }
+
         &.top-vest{
             background: none;
             color: #555;
