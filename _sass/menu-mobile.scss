@@ -255,7 +255,7 @@
 
     }
 
-     &:visited{
+     a:visited{
       text-decoration: none; 
       background-color: #de460b;
 
@@ -318,6 +318,12 @@ a {
   a{
   color: #000000;
   }
+
+  a:hover{
+     text-decoration: none;
+     background-color: #F9A665;
+
+    }
   
 }
 
