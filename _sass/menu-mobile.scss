@@ -237,6 +237,7 @@
     display: none;
     text-decoration: none;
     position: absolute;
+    border-radius: 10px;
     background-color: #ffffff;
     color: #000000;
     min-width: 270px;
@@ -249,10 +250,10 @@
         color: #000000;
     }    
 
-    } 
+
     
     a:hover, a:focus{
-         content: "";
+        content: "";
         border-radius: 5px;
         background-color: #F9A665;
         text-decoration: none;
