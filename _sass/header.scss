@@ -62,7 +62,6 @@
             line-height: 133px;
             text-align: center;
             text-transform: uppercase;
-            transition: transform 1s;
 
 
 
@@ -127,12 +126,12 @@
             }
 
             &:hover, &:focus{
+                border-top: 5px solid #F58634;
+                transition: all 200ms ease-out;
+                display: block;
                 background: #025293;
-                border-top-color: orange;
                 text-decoration: none;
 
-
-                
             }
 
             
