@@ -249,16 +249,18 @@
         color: #000000;
     }    
 
-    a:hover{
-     text-decoration: none;
-     background-color: #F9A665;
-
-    }
-
-     a:visited, a:active{
-      text-decoration: none; 
-      background-color: #F9A665;
-
+    } 
+    
+    a:hover, a:focus{
+         content: "";
+        border-radius: 5px;
+        background-color: #F9A665;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        display: block;
+      
     }
     
 }
@@ -267,6 +269,7 @@
 .dropdown:hover .dropdown-content {
     text-decoration: none;
     display: block;
+    border-radius: 10px;
 }
 
 
