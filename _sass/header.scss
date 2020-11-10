@@ -62,6 +62,8 @@
             line-height: 133px;
             text-align: center;
             text-transform: uppercase;
+            transition: transform 1s;
+
 
 
             
@@ -124,8 +126,9 @@
                 font-size: 14px;
             }
 
-            &:hover{
+            &:hover, &focus{
                 background: #025293;
+                border-top-color: orange;
                 text-decoration: none;
 
 
