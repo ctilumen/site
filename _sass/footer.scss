@@ -25,9 +25,14 @@
     
     a{
         color: #fff;
+        text-decoration: none;
         
-        &:hover{
-           color: #fff; 
+       &:hover, &:focus{
+         border-top: 3px solid #ff8c40;
+         transition: all 200ms ease-out;
+         text-decoration: none;
+         color: #fff; 
+         background: blue;
         }
     }
     
@@ -60,12 +65,16 @@
 .dropdown-content{
     
     a{
+        text-decoration: none;
         color: #fff;
         fill: #fff;
         
-         &:hover{
-                color: #fff;
-            }
+         &:hover, &:focus{
+         transition: all 200ms ease-out;
+         text-decoration: none;
+         color: #fff; 
+         background: #ff8c40;
+                }
         }
         
     position: absolute;
