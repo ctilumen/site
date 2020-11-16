@@ -84,6 +84,10 @@
         padding: 0px 0;
         height: 30px;
         margin-top: 3px;
+
+        @media (max-widht: 992px){
+        margin: auto;
+        }
     }
     
     li{
