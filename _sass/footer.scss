@@ -215,18 +215,18 @@
      
      
       @media(max-width: 425px){
-         margin-left: -12px;
+         margin-left: 30px;
      }
      
      @media(max-width: 375px){
-         margin-left: -18px;
+         margin-left: 20px;
      }
      
      
      @media(max-width: 320px){
-         margin-left: -8px;
+         margin-left: 15px;
      }
-     
+
 
     }
     
@@ -240,9 +240,7 @@
         transition: 0.5s;
         color: #fff;
       
-      @media(max-width: 320px){
-        font-size: 20px;
-     }
+      
     }
     
     
@@ -256,45 +254,19 @@
     
     
   a:hover .icon .fa{
-        
+       text-decoration: none;
        transform: translateY(-100%);
     }
     
      a .name{
+        text-decoration: none;
         position: relative;
         height: 20px;
         width: 100%;
         display: block;
         overflow: hidden;
-    }
-    
-    
-    a .name span {
-        display: block;
-        position: relative;
-        color: #000;
-        font-size: 18px;
-        line-height: 20px;
-        transition: 0.5s;
-
-        
-    }
-    
-     a .name span:before{
-        content: attr(data-text);
-        position: absolute;
-        top: -100px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        color: #ff6600;
-        
-    }
-    
-    a:hover .name span{
-        transform: translateY(20px);
-        
     }//home
+
     
      a .icon .fa1{
         width: 100%;
@@ -311,10 +283,7 @@
         color: transparent;
          
          
-          @media(max-width: 320px){
-        font-size: 20px;
-        background-size: 20px 20px;
-     }
+          
 
     }
     
@@ -331,10 +300,7 @@
         margin-top: -10px;
         line-height: 32px;
      
-         @media(max-width: 320px){
-        font-size: 20px;
-        background-size: 20px 20px;
-     }
+      
         
         
     }
@@ -344,7 +310,7 @@
     
     
     a:hover .icon .fa1{
-        
+       text-decoration: none;
        transform: translateY(-100%);
     }//insta
     
@@ -363,9 +329,7 @@
         color: #fff;
           
           
-           @media(max-width: 320px){
-        font-size: 20px;
-     }
+           
     }
     
 
@@ -381,7 +345,7 @@
     
     
       a:hover .icon .fa2{
-        
+       text-decoration: none;
        transform: translateY(-100%);
     }//you
     
@@ -399,9 +363,7 @@
         transition: 0.5s;
         color: #fff;
          
-          @media(max-width: 320px){
-        font-size: 20px;
-     }
+       
     }
     
 
@@ -417,7 +379,7 @@
     
     
       a:hover .icon .fa3{
-        
+       text-decoration: none;
        transform: translateY(-100%);
     }//face
     
