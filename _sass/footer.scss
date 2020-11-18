@@ -175,3 +175,253 @@
     padding: 10px 0;
     text-align: center;
 }
+
+
+
+
+
+
+
+.menu-social-footer{
+    position: absolute;
+    display: contents;
+ 
+   
+    
+     a{
+        text-decoration: none;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    
+ a .icon {
+        display: inline-block;
+        height: 30px;
+        text-decoration: none;
+        text-align: center;
+        background: #0063b3;
+        overflow: hidden;
+        margin: 0 auto 0px;
+     
+     @media(max-width: 1024px){
+         margin-left: -4px;
+     }
+     
+     
+      @media(max-width: 768px){
+         margin-left: 25px;
+     }
+     
+     
+      @media(max-width: 425px){
+         margin-left: -12px;
+     }
+     
+     @media(max-width: 375px){
+         margin-left: -18px;
+     }
+     
+     
+     @media(max-width: 320px){
+         margin-left: -8px;
+     }
+     
+
+    }
+    
+  a .icon .fa{
+        width: 100%;
+        text-decoration: none;
+        height: 100%;
+        line-height: 30px;
+        display: inherit;
+        font-size: 34px;
+        transition: 0.5s;
+        color: #fff;
+      
+      @media(max-width: 320px){
+        font-size: 20px;
+     }
+    }
+    
+    
+  a .icon .fa:last-child{
+        display: inherit;
+        margin-top: -10px;
+        text-decoration: none;
+        color: #ff6600;
+    }
+    
+    
+    
+  a:hover .icon .fa{
+        
+       transform: translateY(-100%);
+    }
+    
+     a .name{
+        position: relative;
+        height: 20px;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    
+    
+    a .name span {
+        display: block;
+        position: relative;
+        color: #000;
+        font-size: 18px;
+        line-height: 20px;
+        transition: 0.5s;
+
+        
+    }
+    
+     a .name span:before{
+        content: attr(data-text);
+        position: absolute;
+        top: -100px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #ff6600;
+        
+    }
+    
+    a:hover .name span{
+        transform: translateY(20px);
+        
+    }//home
+    
+     a .icon .fa1{
+        width: 100%;
+        text-decoration: none;
+        height: 100%;
+        background-image: url("/insta1.png");
+        background-size: 30px 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        line-height: 30px;
+        display: inherit;
+        font-size: 31px;
+        transition: 0.5s;
+        color: transparent;
+         
+         
+          @media(max-width: 320px){
+        font-size: 20px;
+        background-size: 20px 20px;
+     }
+
+    }
+    
+
+    
+ a .icon .fa1:last-child{
+        display: inline-block;
+        text-decoration: none;
+        background-image: url("/insta2.png");
+        background-size: 30px 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: transparent;
+        margin-top: -10px;
+        line-height: 32px;
+     
+         @media(max-width: 320px){
+        font-size: 20px;
+        background-size: 20px 20px;
+     }
+        
+        
+    }
+    
+    
+    
+    
+    
+    a:hover .icon .fa1{
+        
+       transform: translateY(-100%);
+    }//insta
+    
+    
+    
+    
+    
+      a .icon .fa2{
+        width: 100%;
+        text-decoration: none;
+        height: 100%;
+        line-height: 30px;
+        display: inherit;
+        font-size: 30px;
+        transition: 0.5s;
+        color: #fff;
+          
+          
+           @media(max-width: 320px){
+        font-size: 20px;
+     }
+    }
+    
+
+    
+ a .icon .fa2:last-child{
+        margin-top: -10px;
+        text-decoration: none;
+        color: black;
+        line-height: 32px;
+        
+        
+    }
+    
+    
+      a:hover .icon .fa2{
+        
+       transform: translateY(-100%);
+    }//you
+    
+    
+    
+    
+    
+     a .icon .fa3{
+        width: 100%;
+        text-decoration: none;
+        height: 100%;
+        line-height: 30px;
+        display: inherit;
+        font-size: 27px;
+        transition: 0.5s;
+        color: #fff;
+         
+          @media(max-width: 320px){
+        font-size: 20px;
+     }
+    }
+    
+
+    
+    a .icon .fa3:last-child{
+        margin-top: -10px;
+        text-decoration: none;
+        color: blue;
+        line-height: 32px;
+        
+        
+    }
+    
+    
+      a:hover .icon .fa3{
+        
+       transform: translateY(-100%);
+    }//face
+    
+    
+    
+    
+}
