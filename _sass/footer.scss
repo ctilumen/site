@@ -253,18 +253,9 @@
     
     
     
-  a:hover .icon .fa{
+  a:hover, a:focus .icon .fa{
        text-decoration: none;
        transform: translateY(-100%);
-    }
-    
-     a .name{
-        text-decoration: none;
-        position: relative;
-        height: 20px;
-        width: 100%;
-        display: block;
-        overflow: hidden;
     }//home
 
     
@@ -299,9 +290,7 @@
         color: transparent;
         margin-top: -10px;
         line-height: 32px;
-     
-      
-        
+    
         
     }
     
@@ -309,7 +298,7 @@
     
     
     
-    a:hover .icon .fa1{
+    a:hover, a:focus .icon .fa1{
        text-decoration: none;
        transform: translateY(-100%);
     }//insta
@@ -344,7 +333,7 @@
     }
     
     
-      a:hover .icon .fa2{
+      a:hover, a:focus .icon .fa2{
        text-decoration: none;
        transform: translateY(-100%);
     }//you
@@ -378,7 +367,7 @@
     }
     
     
-      a:hover .icon .fa3{
+      a:hover, a:focus .icon .fa3{
        text-decoration: none;
        transform: translateY(-100%);
     }//face
