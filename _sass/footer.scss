@@ -35,6 +35,27 @@
          background: blue;
         }
     }
+
+
+
+      .mail {
+        margin-top: -20px;
+      
+      a{
+            color: #fff;
+            text-decoration: none;
+        
+         &:hover, &:focus{
+         border-top: #0063b3;
+         text-decoration: none;
+         color: #fff; 
+         background: #0063b3;
+                }
+    }
+}
+
+
+
     
     ul{
         list-style: none;
@@ -114,6 +135,10 @@
         }
     }
 }
+
+
+
+
     
     
     
@@ -240,9 +265,7 @@
         transition: 0.5s;
         color: #fff;
       
-      @media(max-width: 320px){
-        font-size: 20px;
-     }
+   
     }
     
     
@@ -251,6 +274,7 @@
         margin-top: -10px;
         text-decoration: none;
         color: #ff6600;
+        background: #0063b3;
     }
     
     
@@ -258,6 +282,7 @@
   a:hover .icon .fa{
        text-decoration: none;
        transform: translateY(-100%);
+       background: #0063b3;
     }
     
      a .name{
@@ -285,10 +310,7 @@
         color: transparent;
          
          
-          @media(max-width: 320px){
-        font-size: 20px;
-        background-size: 20px 20px;
-     }
+  
 
     }
     
@@ -301,15 +323,11 @@
         background-size: 30px 30px;
         background-position: center;
         background-repeat: no-repeat;
+        background: #0063b3;
         color: transparent;
         margin-top: -10px;
         line-height: 32px;
-     
-         @media(max-width: 320px){
-        font-size: 20px;
-        background-size: 20px 20px;
-     }
-        
+  
         
     }
     
@@ -318,6 +336,7 @@
     
     
     a:hover .icon .fa1{
+       background: #0063b3;
        text-decoration: none;
        transform: translateY(-100%);
     }//insta
@@ -336,10 +355,7 @@
         transition: 0.5s;
         color: #fff;
           
-          
-           @media(max-width: 320px){
-        font-size: 20px;
-     }
+    
     }
     
 
@@ -349,6 +365,7 @@
         text-decoration: none;
         color: black;
         line-height: 32px;
+        background: #0063b3;
         
         
     }
@@ -357,6 +374,7 @@
       a:hover .icon .fa2{
        text-decoration: none;
        transform: translateY(-100%);
+       background: #0063b3;
     }//you
     
     
@@ -373,14 +391,13 @@
         transition: 0.5s;
         color: #fff;
          
-          @media(max-width: 320px){
-        font-size: 20px;
-     }
+       
     }
     
 
     
     a .icon .fa3:last-child{
+        background: #0063b3;
         margin-top: -10px;
         text-decoration: none;
         color: blue;
@@ -391,6 +408,7 @@
     
     
       a:hover .icon .fa3{
+      background: #0063b3;
        text-decoration: none;
        transform: translateY(-100%);
     }//face
