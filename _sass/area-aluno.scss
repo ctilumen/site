@@ -719,13 +719,15 @@ font-weight: bold;
 
     }
 
-    a:hover{
+     a:hover{
+     align-items: center;
+     text-align: center;
      background: darkorange;
      font-weight: bold;
      color: #fff;
      border-radius: 10px;
      width: 80px;
-     left: 80px;
+     margin-left: 80px;
      text-decoration: none;
 
     }
