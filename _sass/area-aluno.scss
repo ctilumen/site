@@ -714,6 +714,19 @@ font-weight: bold;
     a{
       display: block;
       text-align: center;
+      text-decoration: none;
+
+
+    }
+
+    a:hover{
+     background: darkorange;
+     font-weight: bold;
+     color: #fff;
+     border-radius: 10px;
+     width: 80px;
+     left: 80px;
+     text-decoration: none;
 
     }
 }
